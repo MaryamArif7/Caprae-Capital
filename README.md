@@ -1,7 +1,7 @@
 # LeadConnect
 
 Call or message a lead directly from a leads table, in one click. A single,
-polished feature built on top of a lead-gen product — not a rebuild of it.
+polished feature built on top of a lead-gen product —,not a rebuild of it.
 
 ## The idea
 
@@ -96,7 +96,7 @@ Fill in `.env`:
 | Variable | What it is |
 |---|---|
 | `TWILIO_ACCOUNT_SID` / `TWILIO_AUTH_TOKEN` | From the Twilio console |
-| `TWILIO_PHONE_NUMBER` | A Twilio number you own (E.164, e.g. `+15551234567`) |
+| `TWILIO_PHONE_NUMBER` | A Twilio number you own we can buy on twilio console(E.164, e.g. `+15551234567`) |
 | `AGENT_PHONE_NUMBER` | Your own phone — Twilio rings this first on every call |
 | `PUBLIC_BASE_URL` | A URL Twilio can reach for the TwiML webhook. Locally, run `ngrok http 4000` and use that URL |
 | `PORT` | Defaults to `4000` |
